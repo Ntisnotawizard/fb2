@@ -15,10 +15,6 @@
 		8A5728F91E4A71530036C1FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5728F71E4A71530036C1FA /* LaunchScreen.storyboard */; };
 		8A5729041E4A71540036C1FA /* FitBudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5729031E4A71540036C1FA /* FitBudTests.swift */; };
 		8A57290F1E4A71540036C1FA /* FitBudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57290E1E4A71540036C1FA /* FitBudUITests.swift */; };
-		8A98045E1E509B02004A243E /* view1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98045C1E509B02004A243E /* view1.swift */; };
-		8A98045F1E509B02004A243E /* view1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A98045D1E509B02004A243E /* view1.xib */; };
-		8A9804621E50A30D004A243E /* view2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9804601E50A30D004A243E /* view2.swift */; };
-		8A9804631E50A30D004A243E /* view2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9804611E50A30D004A243E /* view2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +49,6 @@
 		8A57290A1E4A71540036C1FA /* FitBudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A57290E1E4A71540036C1FA /* FitBudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitBudUITests.swift; sourceTree = "<group>"; };
 		8A5729101E4A71540036C1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A98045C1E509B02004A243E /* view1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = view1.swift; sourceTree = "<group>"; };
-		8A98045D1E509B02004A243E /* view1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = view1.xib; sourceTree = "<group>"; };
-		8A9804601E50A30D004A243E /* view2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = view2.swift; sourceTree = "<group>"; };
-		8A9804611E50A30D004A243E /* view2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = view2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +101,7 @@
 			children = (
 				8A5728EB1E4A71520036C1FA /* AppDelegate.swift */,
 				8A5728ED1E4A71520036C1FA /* ViewController.swift */,
-				8A9804601E50A30D004A243E /* view2.swift */,
-				8A9804611E50A30D004A243E /* view2.xib */,
 				8A5728EF1E4A71520036C1FA /* Main.storyboard */,
-				8A98045C1E509B02004A243E /* view1.swift */,
-				8A98045D1E509B02004A243E /* view1.xib */,
 				8A5728F51E4A71520036C1FA /* Assets.xcassets */,
 				8A5728F71E4A71530036C1FA /* LaunchScreen.storyboard */,
 				8A5728FA1E4A71530036C1FA /* Info.plist */,
@@ -251,9 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A5728F91E4A71530036C1FA /* LaunchScreen.storyboard in Resources */,
-				8A9804631E50A30D004A243E /* view2.xib in Resources */,
 				8A5728F61E4A71520036C1FA /* Assets.xcassets in Resources */,
-				8A98045F1E509B02004A243E /* view1.xib in Resources */,
 				8A5728F11E4A71520036C1FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,10 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A9804621E50A30D004A243E /* view2.swift in Sources */,
 				8A5728F41E4A71520036C1FA /* FitBud.xcdatamodeld in Sources */,
 				8A5728EE1E4A71520036C1FA /* ViewController.swift in Sources */,
-				8A98045E1E509B02004A243E /* view1.swift in Sources */,
 				8A5728EC1E4A71520036C1FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

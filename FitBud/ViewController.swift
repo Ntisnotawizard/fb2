@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         let v1: view1 = view1(nibName: "view1", bundle: nil)
         
-        let v2: view2 = view2(nibName: "view2", bundle: nil)
+        //let v2: view2 = view2(nibName: "view2", bundle: nil)
         
         //let Size = CGSize(width: 100, height: 100)
         
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         v1.didMove(toParentViewController: self)
         
         
-        self.addChildViewController(v2)
+        /*self.addChildViewController(v2)
         self.pageswipe.addSubview(v2.view)
         v1.didMove(toParentViewController: self)
     
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
         self.pageswipe.contentSize = CGSize(self.view.frame.width * 2,
             self.view.frame.size.height)
-        
+        */
         
         
     }
